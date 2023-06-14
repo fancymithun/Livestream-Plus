@@ -1,0 +1,29 @@
+{
+  "name": "livestream-plus",
+  "version": "1.0.0",
+  "description": "Project is all about creating live streaming backend and chat.",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://fancymithun@github.com/fancymithun/Livestream-Plus.git"
+  },
+  "author": "Mithun Prabhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fancymithun/Livestream-Plus/issues"
+  },
+  "homepage": "https://github.com/fancymithun/Livestream-Plus#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
