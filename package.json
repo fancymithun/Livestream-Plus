@@ -2,9 +2,10 @@
   "name": "livestream-plus",
   "version": "1.0.0",
   "description": "Project is all about creating live streaming backend and chat.",
-  "main": "index.ts",
+  "main": "source/index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon source/index.ts",
+    "debug": "node --inspect-brk source/index.ts"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,14 @@
   },
   "homepage": "https://github.com/fancymithun/Livestream-Plus#readme",
   "dependencies": {
+    "dotenv": "^16.1.4",
     "express": "^4.18.2",
     "socket.io": "^4.6.2"
   },
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^20.3.1",
+    "nodemon": "^2.0.22",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.3"
   }
